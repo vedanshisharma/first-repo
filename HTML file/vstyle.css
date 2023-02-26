@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+ header
+ {
+    background-color: rgba(0, 0, 0, 0.733);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+ }
+ header .navbar ul 
+ {
+    list-style-type:none;   
+ }
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a{
+ padding: 20px;
+ font-size: 15px;
+ color: aliceblue;
+ display: block;
+ text-decoration:none ;
+}
+
+ header .navbar ul li a:hover{
+     background-color: green;
+ }
+ header .navbar ul li ul{
+    position:absolute;
+    display:none;
+ }
+ header .navbar ul li ul li{
+     border-top:1px solid rgb(0,0,0,.1);
+ }
+ header .navbar ul li:hover > ul{
+    display: block;
+ }
+ header .navbar ul li ul a{
+    background-color:black;
+ }
+ 
